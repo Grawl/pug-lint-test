@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"engines": {
+		"node": "^9.11.2",
+		"yarn": "^1.12.3"
+	},
+	"scripts": {
+		"lint-pug": "pug-lint test/index.pug",
+		"lint-vue-pug": "pug-lint test/index.vue"
+	},
+	"optionalDependencies": {
+		"pug-lint": "^2.5.0",
+		"pug-lint-vue": "^0.1.3"
+	}
+}
